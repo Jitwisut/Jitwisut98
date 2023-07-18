@@ -14,9 +14,15 @@ void testa (){
 	printf("Value of B : ");
 	scanf("%d",&b);
 	sum = a*b;
-	printf("Value of Sum : %d x %d = %d ",a,b,sum);
+	printf("Value of Sum : %d x %d = %d \n",a,b,sum);
+	if(sum<=2000){
+		printf("a + b = %d ",a+b);
+	}else{
+		for(sum=1;sum<=30;sum++){
+			printf("%d \n",sum);
+		}
+	}
 }
-	
 int main(){
 	testa();
 }
