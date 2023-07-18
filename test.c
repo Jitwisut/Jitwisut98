@@ -7,7 +7,7 @@
    }
   
 } */
-void testa (){
+void testa (){ //ทดสอบ
 	int a,b,sum;
 	printf("Value of A : ");
 	scanf("%d",&a);
